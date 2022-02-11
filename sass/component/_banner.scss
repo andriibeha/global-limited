@@ -1,0 +1,52 @@
+.banner {
+  text-align: center;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background-color: var(--first-bg-color);
+}
+
+.banner .text {
+  font-size: 16px;
+
+  color: var(--primary-white-color);
+
+  margin-bottom: 20px;
+}
+
+.banner .title {
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 26px;
+
+  text-transform: uppercase;
+
+  margin-bottom: 50px;
+}
+
+/*Mobile*/
+@media screen and (max-width: 768px) {
+  .banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .banner .title {
+    text-transform: none;
+
+    font-size: 28px;
+  }
+
+  .banner .text {
+    font-size: 14px;
+  }
+}
+
+/*Display PC*/
+@media screen and (min-width: 769px) {
+  .banner .title {
+    font-size: 30px;
+  }
+}

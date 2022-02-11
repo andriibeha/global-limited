@@ -1,0 +1,120 @@
+.privacy {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background-color: var(--contact-bg-color);
+}
+
+/*Mobile*/
+@media screen and (max-width: 768px) {
+  .privacy h1.title {
+    position: relative;
+
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+
+  .privacy h1.title::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+
+    left: 0;
+    bottom: -20px;
+
+    border: 1px solid var(--accent-color);
+    border-radius: 2px;
+  }
+
+  .privacy .title-num {
+    font-size: 30px;
+    line-height: 1.21;
+
+    font-weight: 900;
+  }
+
+  .privacy .title-primary {
+    font-size: 25px;
+    font-weight: 700px;
+
+    line-height: 1.21;
+  }
+
+  .privacy .text {
+    font-size: 16px;
+
+    margin-bottom: 30px;
+  }
+
+  .privacy h4.title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .list-privacy li {
+    list-style-type: disc;
+    font-size: 16px;
+  }
+
+  .list-privacy {
+    margin-bottom: 30px;
+  }
+}
+
+/*Display PC*/
+@media screen and (min-width: 769px) {
+  .privacy h1.title {
+    position: relative;
+
+    font-weight: 900;
+    font-size: 38px;
+    margin-bottom: 75px;
+  }
+
+  .privacy h1.title::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+
+    left: 0;
+    bottom: -20px;
+
+    border: 1px solid var(--accent-color);
+    border-radius: 2px;
+  }
+
+  .privacy .title-num {
+    font-size: 32px;
+    line-height: 1.21;
+
+    font-weight: 900;
+  }
+
+  .privacy .title-primary {
+    font-size: 27px;
+    font-weight: 700px;
+
+    line-height: 1.21;
+  }
+
+  .privacy .text {
+    font-size: 18px;
+
+    margin-bottom: 50px;
+  }
+
+  .privacy h4.title {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .list-privacy li {
+    list-style-type: disc;
+    font-size: 18px;
+  }
+
+  .list-privacy {
+    margin-bottom: 50px;
+  }
+}
