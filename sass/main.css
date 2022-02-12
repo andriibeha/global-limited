@@ -156,7 +156,7 @@ body .title {
   letter-spacing: 0.06em;
   text-decoration: none;
   cursor: pointer;
-  background-color: var(--button-bg-color);
+  background-color: var(--accent-color);
   padding: 10px 32px;
   border: 0px;
   border-radius: 4px;
@@ -339,13 +339,14 @@ body .title {
 }
 
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  padding-top: 100px;
 }
 
 .hero .container {
@@ -425,6 +426,11 @@ body .title {
 
 .discover .center {
   text-align: center;
+}
+
+.discover h4 {
+  font-style: italic;
+  margin-top: 20px;
 }
 
 /*Mobile*/
@@ -664,6 +670,7 @@ body .title {
 @media screen and (min-width: 769px) {
   .gallery img {
     width: 450px;
+    height: 300px;
   }
   .gallery .title {
     margin-bottom: 70px;
@@ -750,12 +757,7 @@ body .title {
 
 @media screen and (min-width: 1200px) {
   .reason .list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    margin-left: 35%;
   }
 }
 
@@ -769,15 +771,8 @@ body .title {
   margin-bottom: 15px;
 }
 
-@media screen and (min-width: 1200px) {
-  .reason-item {
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
-}
-
 .reason .text {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .principl {
@@ -813,12 +808,7 @@ body .title {
 
 @media screen and (min-width: 1200px) {
   .principl .list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    margin-left: 35%;
   }
 }
 
@@ -832,15 +822,8 @@ body .title {
   margin-bottom: 15px;
 }
 
-@media screen and (min-width: 1200px) {
-  .principl-item {
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
-}
-
 .principl .text {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .banner {
