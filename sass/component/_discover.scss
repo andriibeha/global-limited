@@ -5,7 +5,7 @@
   background-image: radial-gradient(
     at center center,
     rgba(0, 158, 211, 0.35) 0%,
-    #009ed3 100%
+    #5679d3 100%
   );
 }
 
@@ -34,7 +34,7 @@
 
 .cards .item {
   width: 320px;
-  height: 300px;
+  height: 320px;
 
   background-color: var(--primary-white-color);
 
@@ -42,6 +42,8 @@
 
   margin-right: 30px;
   margin-top: 30px;
+
+  border-radius: 20px;
 }
 
 .cards .item:hover {
@@ -80,43 +82,6 @@
   .discover .item {
     position: relative;
   }
-
-  .discover .icon {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-
-    bottom: 10px;
-    right: 47%;
-
-    fill: var(--accent-color);
-  }
-
-  .cards .text::after {
-    content: "";
-    position: absolute;
-
-    width: 125px;
-
-    left: 56%;
-    bottom: 19px;
-
-    border: 1px solid var(--accent-color);
-    border-radius: 2px;
-  }
-
-  .cards .text::before {
-    content: "";
-    position: absolute;
-
-    width: 125px;
-
-    left: 4%;
-    bottom: 19px;
-
-    border: 1px solid var(--accent-color);
-    border-radius: 2px;
-  }
 }
 
 /*Display PC*/
@@ -131,43 +96,6 @@
 
   .cards .item {
     position: relative;
-  }
-
-  .discover .icon {
-    position: absolute;
-    bottom: 10px;
-    right: 45%;
-
-    width: 30px;
-    height: 30px;
-
-    fill: var(--accent-color);
-  }
-
-  .cards .text::after {
-    content: "";
-    position: absolute;
-
-    width: 125px;
-
-    left: 56%;
-    bottom: 22px;
-
-    border: 1px solid var(--accent-color);
-    border-radius: 2px;
-  }
-
-  .cards .text::before {
-    content: "";
-    position: absolute;
-
-    width: 125px;
-
-    left: 6%;
-    bottom: 22px;
-
-    border: 1px solid var(--accent-color);
-    border-radius: 2px;
   }
 
   .cards .item {

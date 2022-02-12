@@ -147,6 +147,20 @@
   }
 
   .header .logo {
-    margin-right: 700px;
+    margin-right: 520px;
   }
+}
+
+.change-language {
+  margin-left: 50px;
+
+  display: flex;
+}
+
+.change-item {
+  margin-right: 10px;
+}
+
+.change-item:last-child {
+  margin-right: 0;
 }
