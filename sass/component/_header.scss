@@ -84,8 +84,6 @@
 
   .main-nav .logo {
     font-size: 18px;
-
-    margin-right: 100px;
   }
 
   /* Dropdown Button */
@@ -108,6 +106,8 @@
   .dropdown {
     position: relative;
     display: inline-block;
+
+    margin-left: 5px;
   }
 
   /* Dropdown Content (Hidden by Default) */
