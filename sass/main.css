@@ -840,7 +840,10 @@ body .title {
 
 @media screen and (min-width: 1200px) {
   .principl .list {
-    margin-left: 35%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
@@ -852,6 +855,12 @@ body .title {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+  .principl-item {
+    margin-right: 40px;
+  }
 }
 
 .principl .text {
