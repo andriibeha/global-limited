@@ -448,6 +448,9 @@ body .title {
   .discover .item {
     position: relative;
   }
+  .cards .item {
+    height: 400px;
+  }
 }
 
 /*Display PC*/
